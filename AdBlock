@@ -1,3 +1,8 @@
-
 ! 2020/5/30 https://www.google.com
-www.google.com##.aajZCb
+!手机网页版的历史记录+词语联想
+!www.google.com##.aajZCb
+
+! 2020/6/26 https://www.google.com
+!手机网页版的搜索框历史记录
+www.google.com##li.sbct > .sb27.sbic + *
+www.google.com##li.sbct > .sbab > .sbdb.sbai
