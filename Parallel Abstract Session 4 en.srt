@@ -1,0 +1,989 @@
+00:00:00 --> 00:00:13
+Of growth and the most histologically apparent form of tumor nerve crosstalk is perineural invasion, or PNI for short, and that describes cancer cells that invade in, around, or through the nerves.
+
+00:00:14 --> 00:00:44
+So in an analysis of over 2000 patient specimens across 12 different cancer types of our group was able to show again that P and I independently associates with worse clinical outcomes. And when we ran a differential expression analysis on the bulk transcriptomic data of these patients, we were able to identify genes that are enriched in PMI and genes that are depleted in P and I. However, a flaw in the study as well as many that came before it is that it's not cell type specific meaning that.
+
+00:00:44 --> 00:01:15
+I don't know what cells exactly are overexpressing the genes of interest. In addition, there's a lack of spatial context. So for example, regardless of whether a tumor has one spot of P and I or if it's completely covered in P and I, a pathologist can take a look at both specimens and classify it as Pi positive. So spatial context is very important and allowing us to know what we're working with. And to overcome these shortcomings, our group decided to conduct a spatially resolved.
+
+00:01:15 --> 00:01:21
+Whole transcriptome cell type specific screen of PNI in human pdac specimens.
+
+00:01:22 --> 00:01:51
+And to do so, we had our pathology pathologist collaborator go through specimens of FPP dot blocks and pick out regions that are Pi positive and regions that are PN negative. And this is nice and that we have a built in internal control to account for interpatient tumor heterogeneity since within one tumor block we're able to get regions that are Pi positive and regions that are PN negative. And then we had these cores arranged into a tumor microarray and we did spatial.
+
+00:01:52 --> 00:01:54
+The digital spatial profiling on it.
+
+00:01:56 --> 00:02:26
+So we're staying for three different cell types, Pansy K for malignant epithelial cells, smooth muscle actin for cancer, associated fibroblast and S100B for nerves. And we went through and we picked regions of interest that were Pi positive and regions of interest that were PN negative. So the example shown here would be a region of interest that is PMI positive and we went through and then we ran a custom script to create areas of illumination. So specifically we created a mask for the nerve.
+
+00:02:27 --> 00:02:32
+For malignant epithelial cells that are within 100 microns and 300 microns from the nerve.
+
+00:02:33 --> 00:02:38
+In addition to cancer associated fibroblasts that are within 100 microns and 300 microns from the nerve.
+
+00:02:40 --> 00:02:45
+And then we were able to collect the whole transcriptome information from each of the masks separately.
+
+00:02:46 --> 00:03:12
+And then with this data set, our computational biologist was able to run a differential expression analysis comparing malignant cells that were associated with P and I with malignant cells that weren't associated with P and I. And through that we can find genes that are enriched in P and I and therefore predicted to be PN I mediators such as candidate gene number one. Or we can find genes that are depleted in P and I and therefore predicted to be PN repressors such as Canada G #2.
+
+00:03:13 --> 00:03:26
+And this is shown again to the right with the line plot where we can see that each candidate gene increases or decreases monotonically in gene expression as you move radially towards or away from the nerve.
+
+00:03:28 --> 00:03:43
+So now that we have a short list of candidate genes in mind, we were also curious to see the role they play in recruiting or promoting nerve growth. So we decided to do a dorsal root ganglia sensory neuron acid with live imaging to track neurite growth.
+
+00:03:45 --> 00:04:08
+So we spoke in varying amounts of the candidate recombinant protein into the media and we imaged it for a certain span of time. And then we measured the length of neurite growth as inlet. And we saw that with a increase in concentration of the candidate protein, we see an upward trend in neurite growth for the PSNI mediator candidate and a downward trend in growth for the PSNI repressor candidate.
+
+00:04:10 --> 00:04:22
+And we were also curious to see what this would look like in vivo, so we decided to develop mouse pdac organoid lines that overexpressed each of these candidate genes through the Christy CAS 9 VPR system.
+
+00:04:22 --> 00:04:41
+So organized our 3D cell models that can recapitulate the human pdac architecture when injected into mice through a procedure called orthotopic transplant. So we performed orthotopic transplants with each of these organoid lines that are overexpressing our candidate genes and then we harvested the resulting tumors for analysis.
+
+00:04:44 --> 00:04:49
+So when staining against beta 3 tubulin, which is a nerve marker, we saw an increase in.
+
+00:04:50 --> 00:05:20
+Nerve recruitment. When the candidate mediator was overexpressed in comparison to a off target control. We also stained for insulin because we wanted to make sure we weren't accidentally counting eyelids as nerves since that also gets picked up by beta 3 tubulin. And to quantify this, we did two consecutive sections and we subtracted the insulin staining from the beta 3 tubulin staining and then calculated the number of stained pixels relative to the tumor area. And when we did that we saw an increase in beta 3 tubulin.
+
+00:05:20 --> 00:05:41
+Standing for when the mediator gene is over activated in comparison to the control. And while this is all very exciting, we are still in the preliminary steps and we hope to have a list of genes that we're confident about to share soon. And we're also looking into doing cancer invasion assays so we can explore P and I in a more mechanistic manner.
+
+00:05:43 --> 00:05:59
+And with that, I would like to thank Doctor Tyler Jacks and Doctor William Huang for their mentorship and allowing me to work in their labs, as well as my team members for contributing to the project and our many collaborators and sponsors and of course the patients and their families for making the study possible. Thank you.
+
+00:06:03 --> 00:06:08
+Thank you, Doctor Sir for the wonderful presentation. Any questions from the audience?
+
+00:06:11 --> 00:06:12
+Gave not. Let me ask you one.
+
+00:06:14 --> 00:06:17
+Seen many in the development for example.
+
+00:06:18 --> 00:06:32
+There is the neurons always follow the path of vascular baby. So where blood vessels go first to their their neurons follow this impact. So in your model system, is there a vascular density correlates with the innovation?
+
+00:06:33 --> 00:06:38
+That's an interesting question. We haven't stained for that yet, but that's definitely something we can look into.
+
+00:06:38 --> 00:06:39
+OK.
+
+00:06:40 --> 00:06:44
+Even my second question to you is innovation. Is there a correlation with the pain?
+
+00:06:45 --> 00:06:51
+Yes, we believe there is a correlation with pain, but it will be difficult to measure that in the mice.
+
+00:06:51 --> 00:06:52
+In the model, OK.
+
+00:06:54 --> 00:06:54
+That's.
+
+00:06:54 --> 00:06:58
+It has been shown for other cancers diet there is a correlation with pain.
+
+00:06:59 --> 00:07:03
+Wonderful. Any questions from the audience? Yeah.
+
+00:07:04 --> 00:07:04
+Marty.
+
+00:07:06 --> 00:07:07
+From UCSD.
+
+00:07:10 --> 00:07:23
+So my question is, usually in pancreatic cancer you see these nerves are like crushed right, especially around the tumor cells. So did you see any immune cell infiltration like macrophages or something?
+
+00:07:24 --> 00:07:46
+So the crushing effect was actually something we played around with. We used to harvest the tumors at 11 weeks. And with that, we actually didn't see any nerves. And I believe that's exactly what you're talking about the crushing effect. So for the ones that we did, there are really early on at 5 weeks. So we split, we cut the time in half and with that, we are able to see the nurse actively getting recruited.
+
+00:07:47 --> 00:07:47
+Gotcha.
+
+00:07:51 --> 00:07:56
+Any other questions? If not, I'd like to thank Doctor Sue for the wonderful presentation. Thank you.
+
+00:08:01 --> 00:08:08
+The second speaker. So it's my distinct pleasure to introduce my colleague Vineet Kumar Gupta from.
+
+00:08:09 --> 00:08:23
+University of Miami we need will be talking about phospholipase D1 mediated secretion of phosphoric acid regulates metastasis in CD 133 positive pancreatic tumor initiating cells we need.
+
+00:08:24 --> 00:08:32
+Good afternoon everyone. First of all, I would like to thank AP organisers for giving me this wonderful opportunity to present my work here. It's this prestigious conference.
+
+00:08:33 --> 00:08:42
+Pancreatic cancer is an aggressive cancer disease in which normal SNR cell undergo transdifferentiation in response when injury or inflammatory stress by process known as an architectural metaplasia.
+
+00:08:42 --> 00:08:46
+During which some cells gain on connect mutation and become cancerous and form tumor.
+
+00:08:47 --> 00:08:55
+These two men have a small number of cells called cancer stem cell autoimmune initiating cells which have capacity to self renew of all form full blown tumor.
+
+00:08:56 --> 00:09:08
+These DC's are quiescent in nature and resistant to chemotherapy. They are responsible for tumor recurrence and increased metastasis, which ultimately leads to poor prognosis, prognosis in the pdac patients.
+
+00:09:09 --> 00:09:39
+The the the idea of CD 133 as a TIC marker in pancreatic cancer in our lab came with the very interesting experiment for the generation of pancheri Dr Genographic. We implanted human pancreatic tumors into the Nordic skid mice. What we found interestingly that the the tumor which lacks CD133 expression or have relatively low CD133 expression did not form tumor in the nod skid made on the other hand the tumor which have a relatively significant expression of CD133.
+
+00:09:39 --> 00:09:43
+Not only from tumor in those nonskid might mice was also.
+
+00:09:44 --> 00:09:50
+The amount of the CD 1:30 expression correlated with the number of passages these tumor grows in. These nodes get mice.
+
+00:09:51 --> 00:10:14
+To further test the tumor initiating abilities of CD130 cells, we perform a serial dilution in vivo implantation assay for this. As you can see from the graph, even as low as 10 CD 133 Porter cells were able to form tumor in the thymic nude mice. On the other hand, the one even 1000 CD 133 negative cells did not form tumor indicating the tumor initiating potential of C133.
+
+00:10:15 --> 00:10:45
+C130TI are quiescent in nature. If you look at their the proliferation of CD130 low versus high sales, the high cells do not proliferate that compared to the low cells and predominantly number of cells were present into the G0G1 phase. And when we look at the KPC tumor and stained for CD133 and K67 proliferation marker, the area of the TPC tumor which is stained for CD133 Lex KC 67 staining on the other hand the area of tumor which has.
+
+00:10:46 --> 00:10:55
+87 Standing Lake City 133 expression which indicates that the CD 130 positive TI's are generally a quiescent non proliferating cell in the tumor.
+
+00:10:56 --> 00:11:13
+Apart from too many initiating cells, these CD13TI's are associated with the chemo resistance. When we isolated CD130 positive cells from the KPC tumor, they showed a resistant to various pancreatic cancer chemotherapy such as paclitaxel 5, fluorouracil and gemcitabine.
+
+00:11:14 --> 00:11:43
+Another property which is associated with pancreatic TIC is their ability to invade and metastasize and for that when we injected the orthodontically implanted Mia cells which does not have CD133 and the CD 133 overexpressing cell in the pancreas of athymic nude mice. Although these all groups swamps significant and sizable tumor but interestingly the the mice which received the CD 133 over expressing cells shows the significant local as well as distant metastasis.
+
+00:11:45 --> 00:11:58
+When we stand in the capis tumor when we stand for CD133, we found that it is present on on the cell surface which makes sense in the membrane. But what we interestingly found it is Co localized with the cable in one which is the marker of cable independent draft.
+
+00:11:59 --> 00:12:20
+To test the presence of CD133 in the cable repair graph, we perform a ultracentrifugation non detergent based ultracentrifugation and what we found that the CD 133 was present in the fraction where the cable one and flatline which is the marker of cable repair graph cop is the negative marker which does not present on those fraction indicating this the purity of the ultracentrifugation.
+
+00:12:21 --> 00:12:38
+For the interest of time, I'm not going to talk about more in the concept of chemosensory, but what we found that when we disturb these cable I by either cable and silencing or a cholesterol depleting Regent, these cells become sensitive to paclitaxel chemotherapy, not only in vitro as well as in vivo.
+
+00:12:39 --> 00:12:48
+And when we looked at it, she transported expression, drug transporter expression. Their expression goes down significantly upon cabler disruption and their activity also goes significantly down.
+
+00:12:50 --> 00:13:07
+To understand the role of meta or role of C130 TC in tumor metastasis, what we performed the transcriptomic analysis between CD 133 positive cells and CD133 negative cells isolated from the KPC tumor and what we found interestingly the phosphatidylcholine biosynthesis pathway was significantly upregulated.
+
+00:13:08 --> 00:13:21
+And when we perform our spectrometry and measure the phosphatidylcholine in the CD 133 over spacing Mypa cell line, they showed significant upregulation of various phosphate recovering species compared to the vector control which lacks CD133.
+
+00:13:22 --> 00:13:37
+This is surprising because these cells does not proliferate that much despite this presence of this phosphoric. And we believe there is since the phosphoryl choline is one of the source for various secondary lipid messenger molecules. And that's what we found that the phosphoric acid.
+
+00:13:38 --> 00:13:45
+Was upregulated. So the phosphate is one of the millipede messenger molecule which is mainly produced by the consume called phospholipase D1.
+
+00:13:46 --> 00:13:59
+And when we measure the phosphoric acid level in the CD 133 over expressing malpica cells, they were significantly appropriated compared to the vector control and the PD one expression was also appropriated when we look in the CD 133 over expression.
+
+00:14:00 --> 00:14:10
+When we compared the expression of CLDN one expression in different human pancreatic cancer cell line, the expression of PD1 correlated with the CD 133 expression as well as their metastatic nature.
+
+00:14:12 --> 00:14:29
+When we next we sorted CD133 cell from the PC as well as two PD cell line and what we found that the PD one expression was much higher in the CD 133 positive cells. Similarly when we look for the phosphoric acid, there shows a more accumulation in the case of CD 130 positive cells.
+
+00:14:31 --> 00:15:01
+Next we wanted to check whether this a phospholipase D mediated secretion of our production of phosphoric acid does have any role into cell migration. For this we propose for did some invitro Boyden Chamber essays and EC cell migration agency. So first we use the Sup and cell line which have a decent amount of CD130 expression as well as it has higher metastatic nature. So what we do is we in those cells we give them PD1 inhibitor. What we found when we inhibit the PLD one the invasion of the cells has to be.
+
+00:15:01 --> 00:15:29
+Council was down significantly and also the migration in east is, Agasse shows, reduced. On the other hand when we in this case what we did and Mia Papasito Saline which lacks CD133 expression, it is not metastatic. So here what we did we supplemented them with the phosphatic acid and what when we give them phosphatic acid they become more invasive as you can see in the Bryan chamber say they have more invasion and the migration in the ISIS migration essay.
+
+00:15:31 --> 00:16:00
+Next we did in we were implantation Ashe where we implanted KCF in the orthopedically in Blue Black 6 mice and then we treated those mice with the PD inhibitor as so as expected we were not hoping any change in the tumor size but what we found that there is significant reduction in the local and distant metastasis in after treatment with the PLA inhibitor ascitis secretion of ascitis formation of a site is also kind of marker for tumor metastasis and in the the the R experiment monuments.
+
+00:16:01 --> 00:16:05
+That you found that the inhibition of PL-1 reduced significantly the ascitis level in those mice.
+
+00:16:06 --> 00:16:36
+So overall we summarize that C one 30s Markov Panchayat TIC which have great tumor initiating potential. They're localized in the Keebler dipped raft, disruption of calibrator raft sensitized to them to pancreatic chemotherapy and CD130 tis have high phosphatidylcholine which is important source of the formation of phosphoric acid and inhibition of P1 cause reduced pancreatic cancer cell migration and metastasis in IMVU mouse model. With this I want to thank all my mentors and more importantly with Doctor Saluja and all the land members.
+
+00:16:36 --> 00:16:39
+And all the funding is deeply appreciated. Thank you so.
+
+00:16:39 --> 00:16:40
+Much.
+
+00:16:45 --> 00:16:47
+Thank you. This paper is now open for discussion.
+
+00:16:52 --> 00:17:06
+OK, I will initiate the question. Yes. So inner City 133 positive stem cells, stem cells like to live in hypoxic niche, yes. So you're possibly caused secretion doesn't change in the hypoxic condition.
+
+00:17:07 --> 00:17:18
+Yes. So we have previously established that withhold hypoxia is increased CD133 IC's and we have already published studies, we haven't checked in this study but.
+
+00:17:18 --> 00:17:27
+I believe because of the whole CD133C's are increasing hypoxia, I would expect to increase the phosphoric acid in those things, but that's a great suggestion kind of thing. We will look forward to it.
+
+00:17:30 --> 00:17:50
+I have a question about the I think you and your family is the cities 133 many located in the library after this Cambodian structure so and we we destructive structure. So it's have increased the chemosensitivity yes right that it's also affected the self provision rate without the chemo things.
+
+00:17:51 --> 00:17:51
+Sorry, I.
+
+00:17:51 --> 00:17:58
+Didn't, I'm just, I mean it's increased the chemo sensitivity, but I mean that is already affected.
+
+00:17:58 --> 00:18:00
+Our provision rate without any chemo drugs.
+
+00:18:01 --> 00:18:09
+No, it does not do. That's where we the IT doesn't affect the quiescence nature of the CD 133, but what it does is only affect the Kevlar.
+
+00:18:11 --> 00:18:13
+Sensitivity to back detection? No.
+
+00:18:13 --> 00:18:13
+OK.
+
+00:18:16 --> 00:18:17
+OK, love.
+
+00:18:18 --> 00:18:41
+I'll ask one more question just to make this lively discussion going on. So you know tumor microenvironment tumor cells and stroma, they live in a metabolic symbiosis 1 produces 1, the other one uses it produces something else. So in your case when you inhibit possibility cast it, was there a change in the stromal cells or what happens to them?
+
+00:18:42 --> 00:19:05
+This is a direction we are going next kind of thing because so far what we established is that this C133 have phosphoric acid secretion and phosphoric information. Not only that thing there is a secondary other molecules like for life of phosphoric acid or with generally secured out outside the cell. So now we wanted to test does this affect the crosstalk between the cancer cell as stromal cell and that is the action I'm looking looking.
+
+00:19:05 --> 00:19:12
+Forward to question. Yes, it's just a comment about the cells you mentioned.
+
+00:19:13 --> 00:19:27
+That and I have a question about if you say that they know they don't cause metastasis with because they don't they revive from the tissue from it. After this what does mean the metastasis down in the in the in the slide that you.
+
+00:19:27 --> 00:19:42
+Have so as I said is not drive from the metastatic and that's why they're not metastasis and and even in our studies when we look for the CD 1:30 expression in those, we found very low even .01 or around .1%.
+
+00:19:43 --> 00:20:03
+And that's where when we did in vitro assay, we want when we supplementing them phosphatic acid, we wanted some cell which does not metastasize and then convert them to make more metastatic or more migratory and that's what we found in our in vitro assay. But again if we if we go to in vivo assay, I don't think they will form a metastasize into those.
+
+00:20:03 --> 00:20:05
+Things, but they are very invasive.
+
+00:20:06 --> 00:20:10
+This is what I I saw so far. I know that Mia pastels are very invasive.
+
+00:20:10 --> 00:20:27
+In our studies I we never observed them kind of a metastatic. Maybe we can discuss on that like if you have a try to you try that kind of thing and probably it would be interesting to look at how much the CD 133 expression in your kind of saying cells we have and that will give us an idea kind of thing.
+
+00:20:30 --> 00:20:32
+Wonderful. Like there are more questions, yes.
+
+00:20:32 --> 00:20:52
+Very nice talk many. I have a quick question. So I've seen a couple of papers where people have showed that not just CD 133 positive cells which has a metastatic potential, they further sort cells involving other markers and you know which has like great metastatic potential so in.
+
+00:20:52 --> 00:20:54
+Your study, did you?
+
+00:20:54 --> 00:20:58
+Sort like any specific population of stem cells which is going to the liver.
+
+00:21:00 --> 00:21:24
+I have not shown with the whole time thing. So we previously has published like with Doctor Banerjee they that we look for CD133. When we look for the marker CD 133 there is in the city one probably the other stems are markers called also comes in those cells and that's why we feel C 133 is a better marker because we cover not only just ten other stem cells also and that's why we did not focus in this study kind of thing looking for other item marker.
+
+00:21:26 --> 00:21:27
+There's a question.
+
+00:21:27 --> 00:21:32
+From yeah, paywall from UT Health San Antonio, so.
+
+00:21:32 --> 00:21:36
+CD133 is expressed in the normal doctor cells.
+
+00:21:37 --> 00:21:57
+And if you look at a protein Atlas, those tumor is also positive for CD133 actually all epithelial cells. So how do you think, you know you were saying CD 133 is too many initiation. So do you think in the human tumor that's all, all of them are?
+
+00:21:57 --> 00:21:58
+Managing.
+
+00:22:00 --> 00:22:01
+You know, so.
+
+00:22:03 --> 00:22:32
+The C133 expression when we look in in we perform a TCG database analysis kind of thing and we what we found is that the tumor which have the CD 130 degree high expression, there is more mortality, there are more aggressive and again I did not show the data here but we have shown in published paper that those are more metastatic and they the the people which have high sedimentation expression die again is the role of CD133. Presence of CV does not initiate too many initiation, it only comes into the picture.
+
+00:22:32 --> 00:22:57
+And like for example if you give them treat with some kind of chemotherapy, so in normal scenario the chemotherapy kill the most of the cell, the only these cells survive. And when if the opportunity comes suddenly they start proliferation and that's the whole nature of TMT to an initiating cells that then suddenly if if if you suddenly the chemotherapy is gone, they just proliferate and you see a lot of metastasis in different and that's what happens most of the patient cases.
+
+00:22:58 --> 00:23:01
+So, so you actually worked on the tumor real tumor?
+
+00:23:01 --> 00:23:05
+Yes, yes, OK. Yes, analysis based.
+
+00:23:05 --> 00:23:08
+Interest of time, one last question, arjay.
+
+00:23:08 --> 00:23:18
+Yes, yeah, nice talk, Vinit. One quick question is the receptor or ligand or binding partner for CD133 receptor is known, no.
+
+00:23:19 --> 00:23:48
+In and that's where we because as on presentation since it's been on the membrane you always think some kind of interaction. But we feel in the lipid Ralph is the what it does is it creates a kind of a area where there's a lot of signaling molecules face in. And one of in our transcription data we found that the mtor signaling also got upregulated and that's one of the areas we're trying to build up kind of thing how in the Clipper draft the presence of these signaling molecules is driven kind of thing and.
+
+00:23:49 --> 00:23:52
+Carrying a lot of argumentation or cumulative stance process kind of.
+
+00:23:52 --> 00:23:59
+Thing. Wonderful. Thank you. We need for the excellent presentation and the next speaker.
+
+00:24:00 --> 00:24:13
+Is this susmita bar barman from University of Nebraska Medical Center? The title of her talk is mastel regulates EGFR trafficking and the expression in pancreatic cancer progression.
+
+00:24:19 --> 00:24:20
+Just me.
+
+00:24:39 --> 00:24:45
+Good evening everyone. I'm very much honoured to have this platform to show my.
+
+00:24:45 --> 00:24:46
+Work.
+
+00:24:47 --> 00:24:57
+Today my presentation is portion of my work which is entitled Master regulates EGFR trafficking and expression in pancreatic cancer.
+
+00:25:09 --> 00:25:36
+We all hear, we know this pancreatic cancer is a major contributing factor due to cancer death and still we don't have the concrete answer. We know there are several contributing reason for that detection failure, rapid tumor growth metastasis, its complex nature in the tumor microenvironment. But unfortunately we don't have that novel biomarker which can detect pancreatic cancer or we don't have.
+
+00:25:36 --> 00:25:38
+Very breathtaking therapeutic strategy.
+
+00:25:40 --> 00:25:56
+In this regard, we are working on the mass tail which is microtubule associated centronia protein kinase like this is a human ortholog of gradual kinase and its main acts with the with its.
+
+00:25:57 --> 00:26:27
+With this kinase activity and it's helps in sales cycle processing. But apart from this cell cycle and dryness activity, it's also has been mentioned recently with due to its kindness independent activity in different cancer progression as well as it's also plays a significant role in different oncogenic pathways, signaling activations like KT beta, catenin. And recently we have found its significant role in different cancer like colon cancer which we have published recently from our lab itself.
+
+00:26:27 --> 00:26:33
+Breast cancer etcetera. So when we worked with colon cancer in mastel and we were curious to know.
+
+00:26:34 --> 00:26:57
+That what's the role of my if there is any role of master in pancreatic cancer progression or not. So for finding that first we went through the TCGA database and we found this masterly is highly correlated with the lower survival of pancreatic cancer population under the fire fine. After finding that CJ database we also observed that the sorry.
+
+00:27:00 --> 00:27:21
+This masterly is highly correlated with different pancreatic cancer cell line as well as pancreatic cancer mouse model. So interestingly we found that if we are targeting mass tail it's tumorigenesis potentiality of pancreatic cancer cell line is significantly reduced we which we observe in in vivo new xenograft mice model.
+
+00:27:22 --> 00:27:52
+So when we found that we our next question was if master is playing a role in cancer, pancreatic cancer progression then how it is playing that so far we are again and again we are emphasizing to understand the mechanistic role behind its formation. So for understanding that mcmiller mechanism first we did the oncogenic array and among all the important markers which we what we found in the portent marker that is EGFR.
+
+00:27:53 --> 00:28:23
+And the CFR was regulating by the Mastel and interestingly also we found that the masterly score relating with EGFR with the progression of disease and both these marker are all starting already its expression in the inflammation or planning stage itself. And with the progression of disease, its expression is getting intensified with and it's highly correlated with each other. So our next question was if master is regulating?
+
+00:28:23 --> 00:28:41
+EGFR, how it is so we I'm not showing here the data, but we found that master is responsible for EGFR regulation at the translation level or the transcription level and with the immunofluorescence data we also found that the EGFR is getting translocated.
+
+00:28:42 --> 00:28:56
+Master knockdown process. So our next question was for understanding the trafficking. If we briefly grow with the EGFR trafficking, we know EGFR is activate inactive form with the membrane and after.
+
+00:29:00 --> 00:29:28
+After stimulation or activation, the EGFR gets internalized and it first go to the early endosomal sorting process and after this sorting it either goes back to the membrane or either goes back to the, I mean recycled back to the membrane for activating other oncogenic pathway or it's get degraded. So our question was, is master playing any role for EGFR trafficking for understanding that first we observed what's the EGFR status in membranous association in master?
+
+00:29:28 --> 00:29:54
+Knockdown system. So we checked for that the Barton lated cell system. So when we observe that in mass still knocked down the biotinylated master knock down cells, the EGFR expression was totally lost. And we further also interestingly found that when we have tried transfected GFP tag PDGFR, the EGFR is getting translated internalized much more faster in master knockdown system.
+
+00:29:56 --> 00:29:56
+So.
+
+00:29:57 --> 00:30:28
+When we got that, yeah master in master's absence, the EGFR is getting internalized faster. So our next question was what is the recycling status or the degradation status? So interestingly, we found this master is responsible for master in a master absence. The EGFR is recycling of EGFR is much more delayed as well as when we stopped further protein synthesis with cycloheximide.
+
+00:30:28 --> 00:30:49
+Treatment we found that EGFR degradation is much more faster than master knockdown. So we can we can conclude that from this set of experiment that master stabilizes EGFR by inhibiting its degradation as well as this also helps recycling in recycling procedure.
+
+00:30:50 --> 00:31:13
+So after understanding all we were trying to understand the rather tried to identify the EGFR trafficking by Co localizing with different chamber markers. So we did a couple of set of experiment with different time points. But the brief of these experiments are.
+
+00:31:14 --> 00:31:15
+This.
+
+00:31:15 --> 00:31:45
+Being master knock down, the internalized EGFR sorting system is happening much more early as well as from after early endosomal sorting system. It's going towards the in latent resume process which we have quantified with the lab 7 colocalization. And certainly the EGFR degradation is significantly high in master knockdown which we evidenced with the lamp one EGFR colocalization.
+
+00:31:47 --> 00:32:17
+So from that we can tell that master is certainly responsible for EGFR stabilization and EVE master is not present there. EGFR is much more degrading faster with its internalization and trafficking system. So the EGFR understanding will not be complete if we don't understand its phosphorylation status. So we did in master knockdown system, we did EGF stimulation for get it for.
+
+00:32:17 --> 00:32:23
+Making the faster initialization process and after that what we found that the 104.5.
+
+00:32:25 --> 00:32:52
+Phosphorylations site is much more activated in master knockdown cells. So what is signifies that this 1045 is responsible for the civil docking system with the GFR Civil Association and the civil is the E3 ligated protein which helps the ubiquitinated degradation procedure. And further we also confirm that in master knockdown this Sybil and EGA for association is significantly high.
+
+00:32:53 --> 00:33:23
+So from that we can say that yeah, master is master is responsible for this. If master is not there, the EGFR is getting phosphorylated is 1045 sites which is leading to the Civil Association and might might be the ubiquitinated degradation procedure. So when we understood that yeah, master is responsible for the prevention of EGFR, I mean prevention of EGFR degradation, how master is doing that so for understanding.
+
+00:33:23 --> 00:33:53
+That recently we learned that Alex, Alex which is a escort protein, Alex and Galectin, it's plays a complex form with the EGFR which helps them make the EGFR membranes association and it plays a major controlling factor for internalization, trafficking. So our understanding was that if master because already I have shown that mastel when mastel is absent that internalization procedure is happening.
+
+00:33:54 --> 00:34:09
+Mr So if master is there the, I mean is there master playing any role that EGFR, Alex and Galactan complex so for understanding that when we immunoprecipitated with mastel, we found yes mastel also getting.
+
+00:34:11 --> 00:34:23
+I mean the EGFR, Alex, Galectin one and master is playing a company, I mean forming a complex to maintain that EGFR association with the EGFR Membrane association.
+
+00:34:24 --> 00:34:34
+So far as I mentioned that Alex is playing a key role for holding the EGFR association with the membrane. So our.
+
+00:34:35 --> 00:35:04
+Understanding was how it is doing for under the for that when we targeted Alex and Immunoprecipitated with the mastel, we found this whole complex is getting significantly dissociated with the Alex knockdown system. So we can say that yeah master EGFR galectin one and Alex playing a complex forming a complex to make maintain the EGFR.
+
+00:35:05 --> 00:35:09
+Brain Association and Alex is the key role of that complex.
+
+00:35:11 --> 00:35:32
+From that we can infer that the mastel correlates with EGFR with the disease progression pancreatic cancer disease progression, master stabilizes, EGFR master is not present, the this whole complex is getting dissociated and the EGFR is getting degradation towards the degradation far faster.
+
+00:35:33 --> 00:35:58
+And the bottom line is if we target mastel, we can degrade the EGFR and we know the EGFR is the more important, most important candidate for the recurrence and the resistance to the traditional therapy for the pancreatic cancer. So with that targeting master, we can combat this problem.
+
+00:35:59 --> 00:35:59
+1.
+
+00:36:00 --> 00:36:05
+OK. We are running out of time. So if there is any one building question.
+
+00:36:06 --> 00:36:07
+Anybody.
+
+00:36:09 --> 00:36:15
+If not, I'll ask you one question, quick one. So is the internalization is ligand dependent?
+
+00:36:16 --> 00:36:28
+Master regulation of EGFR internalization, can it happen without lagging? Yes, it can. OK, yes, they are. Is there a small molecule inhibitor for the master? Yes, there is. OK, good.
+
+00:36:30 --> 00:36:31
+Wonderful. Thank you so.
+
+00:36:31 --> 00:36:32
+Much thank you.
+
+00:36:36 --> 00:36:38
+So our next speaker is Doctor.
+
+00:36:39 --> 00:36:50
+Yeah, Jingjiang from University of Michigan. So her title is application of CR1 synergizes with immune checkpoint blockade in pancreatic cancer.
+
+00:36:53 --> 00:37:10
+Thank you for the kind introduction and it's a great pleasure to have this opportunity to share with you my recent work targeting the CC motif chemokine receptor 1 as a potential therapeutic approach in pancreatic cancer.
+
+00:37:13 --> 00:37:43
+Have no financial disclosure and so we it is well known that the PDA is characterized by a very immunosuppressive tumor microenvironment. As you can see here from a single cell on a sequencing data set that was previously previously established. It contains 3 adjacent normal patient sample as well as 16 PDA patient sample. And as you can see the Milo cells is the most abundant immune cells.
+
+00:37:43 --> 00:38:07
+Which is also known to be immunosuppressive and we take a closer look at the smiles of population. We can see there are granular size, they're very small clusters of dendritic cells and the majority of those immune Milo cells are tumor associated macrophages and they can be divided into several different subtypes.
+
+00:38:08 --> 00:38:33
+So we would like to study the CCLC 1 signaling in the pancreatic cancer. So we when we look at the receptor CCR one, we found it is mainly expressed by the Milo sauce and especially by the tumor Sochi macrophages especially you can see the level of C1 is high in the PDA patient compared to the adjacent normal tissue.
+
+00:38:35 --> 00:39:04
+Because we would like to use mouse model to study pancreatic cancer. So we also look at the CR1 expression in a well established mouse model of pancreatic cancer. And you can see the czar one is again mainly expressed by the myeloma cells including macrophages and dendritic cells as well as granular sites. But also Ceasar one expression is highest in the PDA sample compared to the either normal or.
+
+00:39:04 --> 00:39:21
+Because the relation pendants, we also verify that CR1 is indeed expressed by 480 positive macrophages in the mouse PDA by RNA scope in combination of fluorescent staining.
+
+00:39:23 --> 00:39:47
+So we showed that Cesar one expression is up regulated in the pancreatic cancer especially in the tumor social macrophages. So we hypothesize that the CCR one might regulate this tumor Sochi macrophage infiltration and polarization thus contributing to the immunosuppressive tumor microenvironment.
+
+00:39:49 --> 00:40:16
+To test that, we used as CL1 knockout mouse model and we crossed with this classic KC model where the oncogenic clearance is specifically expressed on the pancreatic epithelial cells. So using KCC one account mouse model, we can study the effect of CCR one application in the early stage of pen and formation.
+
+00:40:17 --> 00:40:33
+We also induced acute pancreatitis to accelerate this tumor genesis and at the time we harvest the tissue, we saw the CL1 knockout mice. They recovered from the cute pancreatitis as well as the Y type.
+
+00:40:34 --> 00:40:47
+However, when we look at the KC, also KC1 knockout mice, they both developed abundant penalizations. At this stage, there's no obvious difference between those two mouse models.
+
+00:40:49 --> 00:41:18
+But we wanted to understand how CCR one account might have an effect on the macrophages. So by standing we saw actually there's no difference in either the macrophage accumulation nor the immunosuppressive function shown here by immunostaining of arginase one as a marker of M2 or alternatively activated macrophage also at 480 as a paint marker for the macrophages.
+
+00:41:20 --> 00:41:27
+But surprisingly when we look at the other immune cell type as shown here CDA and granzyme B staining.
+
+00:41:28 --> 00:41:41
+We saw an increase in CDA infiltration when we now called CCR one at this pendant stage, although those CDT cells do not express a grandson B, indicating they're not actually active.
+
+00:41:43 --> 00:41:56
+So in summary, knocking out CR1 at the panel stage did not prevent the disease formation unfortunately, although we did see there's an increase in CD T cell infiltration.
+
+00:41:57 --> 00:42:14
+But next we would like to know how CR1 can be used as a potential target in the established PDA. So we used this ingenic PDA mouse model where we could inject mouse PS Online directly into the mouse pancreas.
+
+00:42:15 --> 00:42:24
+And with different sound lines that we tested, we consistently saw a decrease in the tumor size in the CR1 knockout model.
+
+00:42:26 --> 00:42:32
+And then we also saw there's evidence of increased cell apoptosis and.
+
+00:42:33 --> 00:42:39
+Now we see grandson be expression in the city T cells when we knock out C1.
+
+00:42:41 --> 00:43:11
+And then we would like to know if the cd-r, CD activation is responsible for the tumor inhibition effect. So we did also topic mouse model again and we also used the neutralization antibody to deplete the CDT cells in the CR1 model. And now we are able to rescue the tumor growth back to the same level as the white type mouse that received the CDA depletion.
+
+00:43:12 --> 00:43:42
+Ohh, so our result indicate that the CR1 knocking out is indeed inhibit tumor growth depends in AC T cell dependent minor and the mechanism. Later we found out this although these are one account did not affect the micro feature accumulation in the orthotopic tumor model although those macrophage now express less arginase one as well as less.
+
+00:43:43 --> 00:43:48
+CD206 both immunosuppressed marker of tumor associated macrophages.
+
+00:43:50 --> 00:44:01
+And then we would like to try a more clinical relevant approach to target C1 and luckily there are a lot of CD CR1 inhibitors available.
+
+00:44:03 --> 00:44:09
+And again, you can see that CR1 inhibition by this inhibitor can reduce tumor growth.
+
+00:44:10 --> 00:44:23
+To a similar level as the CR one account, then we also tried the CL inhibition in combination with the immune block and CPDL one therapy.
+
+00:44:24 --> 00:44:30
+Although there is additional benefit with this combo treatment the.
+
+00:44:31 --> 00:45:01
+But they're rather limited because we saw the CR1 knocking out decrease the arginase expression but not completely erased them. And also in the lab we are actively study the role of urgency. So we decided to use arginase inhibitor and now with all those three we can see the greatest antitumor effect compared to the other dual combination.
+
+00:45:01 --> 00:45:01
+Approaches.
+
+00:45:03 --> 00:45:24
+So in summary, targeting the CR1 on the tumor social macrophages did not prevent their infiltration or accumulation at the PDA. However, they can decrease their immunosuppressive function by decreasing arginase. One expression does allow the immune activation of CD T cells.
+
+00:45:24 --> 00:45:36
+And the way we did a combination approach to target both anti PD1 and arginase one, now we can further enhance the CD T cell antitumor immunity.
+
+00:45:37 --> 00:45:49
+With that, I would like to thank my collaborators and my mentor, Doctor Marina Pasca di Magliano at the University of Michigan. And thank you for your attention and happy to take any questions.
+
+00:45:51 --> 00:45:52
+Thank you.
+
+00:45:54 --> 00:45:57
+Very nice talk. So is there any questions?
+
+00:45:57 --> 00:45:58
+Yeah.
+
+00:45:59 --> 00:46:00
+Ohh.
+
+00:46:02 --> 00:46:09
+Doctor, I have a question. So you said you use this CR1 knockout mice, so is that a global knockout or is it also?
+
+00:46:09 --> 00:46:23
+It is a global knockout because the season one is mainly expressed by the Milo sales compartment, especially high in the tumor social macrophages. So we think using a you know.
+
+00:46:24 --> 00:46:26
+Knock out model. It should be, you know.
+
+00:46:27 --> 00:46:32
+Benefit for us to study its role in the microsource compartment.
+
+00:46:34 --> 00:46:34
+Yes.
+
+00:46:35 --> 00:46:35
+Yes.
+
+00:46:37 --> 00:46:52
+So this is 1 funny from the University of Missouri. I have the two question. So first question. One the CCR, one knockout all over expiration you say it's impact the city at the TCA infiltration right?
+
+00:46:53 --> 00:46:56
+At the early stage of the tumor genesis, yeah.
+
+00:46:56 --> 00:47:06
+So do you have the evidence or do you study whether the CR1 knockout will impact the city at the TCF function or even that?
+
+00:47:07 --> 00:47:08
+And a tolerance or something.
+
+00:47:09 --> 00:47:36
+Yeah, that's a great question. We did check the major immune cell population in the cellar knockout model before we using it to study the pancreatic cancer and we saw there's no major difference between the white type and the c1.com mouse. So those model has been published before and there are some pathologic condition, they do have impact immune response but.
+
+00:47:37 --> 00:47:44
+In the, you know, the stereo healthy microenvironment, they're just behaving the same as the white type.
+
+00:47:44 --> 00:47:57
+But do you check such as the PD1 or PD1 expression level in the infiltrated the CDCR 1 knockout mice compared to the wild type mice?
+
+00:47:58 --> 00:48:07
+Yeah, that's a great question. I don't think we have done that, but we could look back because we do have single cell sequencing data.
+
+00:48:07 --> 00:48:15
+From those models, so we could check the PD one expression on the T cells in the czerwona called Nice. Thank you for the great advice.
+
+00:48:17 --> 00:48:39
+Another question, so, so usually we know so actually that immune cell infiltration is related with the fibrosis there. So you already show this one impact the tumor micro tumor associated macrophages there, right. Does it show impact fibroblasts, cell cancer, associated fibroblast, fibroblasts?
+
+00:48:41 --> 00:48:59
+Yeah, there's a complex crosstalk between you know different type of cells in the tumor micro Redmond, but you know due to the timing we cannot show all of our data, but hopefully we could get this data published soon. So you will see the full pictures that will be great. Thank you.
+
+00:48:59 --> 00:49:00
+Thank you.
+
+00:49:02 --> 00:49:03
+Yeah, quick question.
+
+00:49:03 --> 00:49:18
+Great data. Data. So I have two questions. CR1 is also expressed by stromal cells and hematopoietic cells. So did you take that factor into consideration along with expression on myeloid cells?
+
+00:49:20 --> 00:49:49
+Let me repeat the question just to be sure. So you're saying that C1 also expressed by stromal cells such as fibroblasts? Yeah, ohh, we did not see that actually. So we have checked you know mouse and human single cell sequencing data. I know previously it has shown to the CR1 can be expressed by like T cells during like developmental stage, but in the pancreatic cancer tumor microenvironment.
+
+00:49:50 --> 00:50:20
+It is mainly expressed by Milo cells. We did not see its expression in the other type of stroma cells, so OK. And also did you check the survival curve if they survived better CCR one knockout mice? Well fortunately with this also topic model it is not ideal to do a survival study, but we could try to do that with the KPC mouse model, so with the spontaneous PDA model.
+
+00:50:20 --> 00:50:24
+Yeah, that's a great suggestion. We could do that.
+
+00:50:24 --> 00:50:25
+Thank you. Thank you.
+
+00:50:26 --> 00:50:27
+Thank you.
+
+00:50:30 --> 00:50:37
+So the next presenter is Doctor Ordon Cotton Baba Judah from Mayo Clinic.
+
+00:50:38 --> 00:50:49
+The topic is the prevalence of exocrine pancreatic insufficiency and substantial risk of pancreatic cancer population level study.
+
+00:50:57 --> 00:50:57
+OK.
+
+00:50:59 --> 00:51:17
+Good evening, everyone. Thank you for having me here. My name is doctor, Doctor Babaji. I'm a chief resident in Internal Medicine department at one Brooklyn Health and I'm doing this presentation the prevalence of exocrine pancreas insufficiency and the subsequent risk of pancreatic cancer.
+
+00:51:19 --> 00:51:31
+I have no conflicts of interest to disclose and my presentation is going to go dust. I'll talk about the background, move to the Ames methods, talk about the results, and then we'll talk about conclusions.
+
+00:51:32 --> 00:52:02
+In the background, extra pancreas insufficiency. We all know that it's an underrecognized complication of pancreatic cancer. Usually we have this when there's an inappropriate activity or inappropriate secretion of pancreatic enzymes, mostly the pancreatic lipase. It said that you should have less than 10% of lipase activity before you present with symptoms. Most of the symptoms that people or patients would present rates will include abdominal pain, bloating.
+
+00:52:02 --> 00:52:06
+Satoya. And if it goes on for a while, you'll see weight loss.
+
+00:52:07 --> 00:52:36
+Now when we're looking at EP I, we know that the prevalence of EPIC hasn't really been studied. So that was one of our aims in this. And we also know that in this group the patients with EPA, their subsequent risk of pancreatic cancer has also been understudied because most of the patients we know when we talk about EP I, we know that they've had pancreatic cancer then would lead to API or they had other risk factors like chronic pancreatitis then that could lead to API. So like I mentioned in our.
+
+00:52:37 --> 00:52:48
+Teams, we had to describe the population level prevalence of EPIC and also to look at the incidence and risk factors for pancreatic cancer in patients that have EPI.
+
+00:52:49 --> 00:53:19
+The methods we utilized the TriNet X database. This is a very good database. It's a cloud based database of about 7 to 9,000,000 patients in the US across 49 healthcare organizations. And this database is frequently updated about every 24 hours and it has access to granular data from the employee, the ECHL or the records of all these patients, inclusion criteria where patients the 18 years and older with EPIC.
+
+00:53:19 --> 00:53:36
+Identified from the ICD 10 coding. This coding was just introduced in 2015, so it allowed us to follow patients from 2016 to 2022. These are patients that were coded as having API's and was seen in various clinics around the US.
+
+00:53:37 --> 00:53:55
+Exclusion criteria. We had to remove any patient that had a history of pancreatic surgery before NPI diagnosis or a patient, any patient that had a history of pancreatic cancer before the API diagnosis. We also did a one to one propensity score matching for risk factors and other demographics.
+
+00:53:57 --> 00:54:14
+Our primary outcome, like I had mentioned before was the population level, prevalence of API and secondary outcomes. We looked at the incidence of pancreatic cancer after getting an API diagnosis and compared mortality between an API and a non API. Well here are results.
+
+00:54:15 --> 00:54:45
+Now when we look at our results, we see that comparing the demographic characteristics between the two cohorts between patients that had EPIC and patients that had not and did not have API, we noticed that patients with EPIC were generally found to be younger. We also saw that there was some discrepancy in the racial predisposition of this patients. The patients with API were more likely to be white, same as patients, but they have API's, but we saw that there was a larger majority of.
+
+00:54:45 --> 00:54:47
+8 patients in this EPI cohort.
+
+00:54:49 --> 00:55:19
+And looking at the comorbidities between these two groups, between the patients that had API and the patients with no API, we saw the usual risk factors that would be like pancreatitis both acute and chronic and the API group cystic fibrosis as well. And we also saw type one and type 2 diabetes was also more prevalent in the API group as compared to the non API group. As a matter to note, we notice that risk factor like hypertension happened to be very much more in the API group.
+
+00:55:19 --> 00:55:21
+As compared to the non EPI group.
+
+00:55:22 --> 00:55:46
+Now when we look at these patients that have EPI and then we look at those that had API and then got pancreatic cancer, we noticed that we had about 377 of them and we looked at how many of them got an imaging within one year. Most of them majority about 67% got imagine within one year of their API diagnosis and most of them got a CT scan.
+
+00:55:48 --> 00:56:18
+And when we look at the characteristics, these patients as I mentioned the API and pancreatic cancer patients, 377 of them relatively were younger than the patients that had no EPIC before their diagnosis of pancreatic cancer. I think the number that we got was a bit small. So other demographics we couldn't really see any statistically significant variables and the outcomes of patients that had EPIC versus patients with no API after.
+
+00:56:18 --> 00:56:48
+Propensity matching to rule particular risk factors, things like chronic pancreatitis, cystic fibrosis, those things that we know would lead or can predisposed to pancreatic cancer in itself. We noticed that there was an increased risk of all forms of pancreatic cancer in the patients that had API versus the patients that had no API. So we had a risk seeing up to about two times when a patient with EPIC and pancreatic cancer and it did not matter wherever the tumor was located.
+
+00:56:48 --> 00:56:52
+There was an increased risk for having pancreatic cancer in these patients.
+
+00:56:53 --> 00:57:13
+And when we compare the all cause mortality between patients that had EPIC and patients with no EP I, generally without looking at pancreatic cancer just between patients with ESPN API, we saw that there was an increased all cause mortality in patients with EPIC compared to patients without EP I.
+
+00:57:14 --> 00:57:44
+Now surprisingly we did a couple of Maya survival curve to look at the survival probability between patients with EPRI and pancreatic cancer and patients with no EPI and pancreatic cancer. And we could see here that the survival probability was better when patients with EPIC and pancreatic cancer as compared to patients with no EP and pancreatic cancer. One thing we believe that could have caused this was because for these patients that would present with.
+
+00:57:44 --> 00:58:02
+CPI that gets they are put more on the radar, they are screen and then they get their imaging done and more likely there's a better chance of detecting this pancreatic cancer earlier than the other patients with no EPI and present by the time the pancreatic cancer has advanced.
+
+00:58:03 --> 00:58:33
+And the strength of our study, one major strength we had was our database, the TriNet X database. As I mentioned earlier, it's a large sample size. It gives us very granular data and we were able to do a propensity score matching for this. But it also came with limitations, limitations being there was a misclassification bias and they could be under reporting also, it's a retrospective nature of the study and because we used the I CD10 code for capturing patients with EPIC, it's also possible.
+
+00:58:33 --> 00:58:44
+But some of these patients might not particularly remember the exact start day of their symptoms. So there are some patients that might have API that were not included in our criteria.
+
+00:58:45 --> 00:59:10
+In conclusion, what our study has shown is that the prevalence of EPI in the population is low, but however, these patients that have API, they tend to have higher rates of pancreatic cancer and higher rates of mortality compared to patients without EP I. I believe that more research is needed to be done to further expand on the rule of law, fecal elastase EPIC and the risk of pancreatic cancer.
+
+00:59:13 --> 00:59:13
+Thank you.
+
+00:59:19 --> 00:59:21
+Nice presentation and any question.
+
+00:59:23 --> 00:59:46
+I can start one. So I think yeah this you are funny I think about this EP plus pancreatic cancer patient I think so I will better than the non API plus I think it was yeah it's very stressed. So I just wonder so do you how do you even look into more detail about this stage of this pancreatic cancer I think from these two different group stage difference.
+
+00:59:47 --> 00:59:52
+Yes, that's something that we are currently looking into. Thank you for that question and that we're finding out that in the patients.
+
+00:59:52 --> 01:00:23
+Have API first before getting pancreatic cancer. Most of them come in earlier stages, most of the patients that so they present and they have symptoms of EPIC and because of those symptoms or other things the physicians would then screen for pancreatic cancer and they are able to pick up this cancer earlier. In fact we are saying that most of them that have the API first are able to have surgery because when they present the stage at which they present is still a stage.
+
+01:00:23 --> 01:00:28
+That's amenable to surgery and they're able to have very good therapeutic modalities.
+
+01:00:28 --> 01:00:30
+As most of them are more localized instead of.
+
+01:00:30 --> 01:00:34
+The yes, more localized compared to those that's present without API.
+
+01:00:39 --> 01:00:41
+So it's a very good talk. I like it.
+
+01:00:42 --> 01:00:54
+But I'm not. I'm not sure, I don't know the API or something, but I have a question. So does any cause induce EPIC related with the ratio of pancreatic cancer?
+
+01:00:56 --> 01:01:04
+So different, I think definitely different risk factor right there can induce the API. So whether different risk?
+
+01:01:06 --> 01:01:11
+Induce the EPI is related with the ratio of pancreatic cancer.
+
+01:01:12 --> 01:01:37
+Yes, thank you for that question. Yes, in most of the risk factors of patients that will have API, we see that in those groups they are also predisposed to having pancreatic cancer. Number one would be things like chronic pancreatitis. We see that in chronic pancreatitis, there's also an increased risk of pancreatic cancer. But what we did in our study was to adjust and match. We did a propensity score matching for the risk factors to try and.
+
+01:01:38 --> 01:01:58
+Remove those confounders as much as possible and then compare. And we still saw that in this patient that had EPIC when we are matching both groups for known risk factors for pancreatic cancer, they still had an increased risk of pancreatic cancer compared to the other patients without EP I.
+
+01:01:58 --> 01:02:05
+OK, so that's the EP I divided into the different level, so such as the level one, level 2, Level 3.
+
+01:02:06 --> 01:02:12
+Are there different level related with the ratio of initiation of pancreatic cancer?
+
+01:02:12 --> 01:02:36
+No, thank you for that. That's actually something we're looking at. We're because what we did for these patients that had API, the inclusion was just the I CD10 code. It didn't really tell us the severity, it just says they have API or not. Another study that we're working on is to look at fecal elastase levels and to look at other things to try and classify a severity of API and then now look at the subsequent.
+
+01:02:36 --> 01:02:39
+Risk of pancreatic cancer based on the severity.
+
+01:02:40 --> 01:02:40
+Thank you.
+
+01:02:43 --> 01:02:56
+One quick last question, I know Mayor has lodged database from could genetics genetics database they have. Is there any correlation, genetic correlation to EPI or polymorphism of MHC correlating to EPI develop?
+
+01:02:58 --> 01:03:06
+Thank you for that question. That's a very good one. Right now. It's something I'm not quite sure of, not looked into, but it's definitely something that we should look into.
+
+01:03:08 --> 01:03:09
+Thank you.
+
+01:03:14 --> 01:03:29
+So our last present presentation is by Doctor Hussain Khan from Wayne State University. The topic is novel combination to enhance the antitumor activity of K Ras G12C target drugs.
+
+01:03:33 --> 01:03:34
+OK. Thank you.
+
+01:03:37 --> 01:03:38
+Good evening everyone.
+
+01:03:39 --> 01:03:50
+My name is Susan Yahan and I'm here to present my abstract title Lowell combination to enhance the anti cancer activity of Caras G12C targeted therapies.
+
+01:03:51 --> 01:03:53
+I have no financial disclosures.
+
+01:03:55 --> 01:04:09
+So we all know Karas is one of the most frequently mutated oncogene. It's prevalent in almost 25% of all cancers, especially in Pdac where 90% of all pdac cancer patients carry mutation in this particular oncogene.
+
+01:04:10 --> 01:04:21
+So ever since Keras was discovered some 4 decades ago, it has proven to be quite challenging to target Keras. And that earned Keras the dubious distinction of being undruggable.
+
+01:04:22 --> 01:04:33
+But that changed with the discovery of a therapeutic vulnerability in the G12C isoform of Keras protein and that led to the subsequent development of G12C inhibitors.
+
+01:04:34 --> 01:04:54
+So I'm not gonna go into all that detail because we had a fantastic presentation by Doctor Tanius just before this session. But I'll just briefly conclude by saying that the G12 inhibitors, they are in the clinic and the major breakthrough came last year when FDA approved the first G 12 centimeter for non small cell lung cancer.
+
+01:04:55 --> 01:05:06
+But the major limitation with the use of these inhibitors is the development of drug resistance in patients receiving these therapies. So this necessitates the.
+
+01:05:07 --> 01:05:17
+Devising rational combination approaches that can enhance the efficacy of these inhibitors or prevent or delay the resistance in patients receiving these therapies.
+
+01:05:20 --> 01:05:26
+So in this regard, several combination approaches have been adopted. They have been tried and tested both preclinically as well as in the clinic.
+
+01:05:27 --> 01:05:29
+So details, independents have been.
+
+01:05:31 --> 01:05:40
+Combined with chemotherapeutic drugs as well as immune checkpoint inhibitors and most extensively with inhibitors of the vertical RTK Ras pathway.
+
+01:05:41 --> 01:05:51
+And an interesting approach has been the use of inhibitors against certain therapeutically, synthetically lethal targets such as export in one.
+
+01:05:52 --> 01:06:03
+This is a study that I presented last year in this AP meeting and we got it published early this year where we showed that the export in protein inhibitor selinexor can enhance the efficacy of G12 inhibitors.
+
+01:06:04 --> 01:06:13
+So our quest for finding novel combination therapies that can enhance efficacy of G12 inhibitors led us to pack four. I'm sorry.
+
+01:06:15 --> 01:06:25
+So pack four, according to an accumulating body of evidence, is considered a potential therapeutic target in cancers driven by care mutant Caras.
+
+01:06:25 --> 01:06:38
+And here, as you can see on the right, that pack four is pack four is basically a Syrian 3 kinase. It acts as a hub link downstream of Ras Pi 3K, and it acts as a hub linking several major signaling pathways.
+
+01:06:39 --> 01:06:56
+And it has been shown and back for by the way control several several functions such as cell proliferation, survival, mortality, MD etcetera. And there is evidence to show that targeting pack four can inhibit the Ras mediated signaling as well as multiple oncogenic signaling.
+
+01:06:58 --> 01:07:03
+Moreover, pack four has been shown to be overexpressed in several malignancies, including pdac.
+
+01:07:03 --> 01:07:15
+And pack four is also attributed. Drug resistance has also been attributed to pack four and that two through PI3K AKT and Mac and Eric Dependent Pathways.
+
+01:07:17 --> 01:07:46
+So we try to see whether there there does there is there any synthetically interaction occurring between PAC-4 and Keras. For this we used slots database which uses a computational systems approach called slant. This is basically is used for the prediction of humans synthetically targets. So using this approach we found that there does exist a synthetic lethal interaction between PAC-4 and karash.
+
+01:07:49 --> 01:07:58
+Then we used Keras G12 senior better resistant cell lines that we developed in our lab. So this is sort of resistant cell line.
+
+01:07:58 --> 01:08:20
+We tested a pack 4 inhibitor KPT 9274 on these resistance cell lines and we found that the pack 4 inhibitor is able to dose dependently inhibit cell proliferation in the resistant cell lines as well as in the parental cell line. So this goes to show that the pack 4 inhibitor is able to push the cancer cells away from their drug resistant phenotype.
+
+01:08:22 --> 01:08:29
+Then we tried to look at the synergistic effect of combining pack 4 inhibitor with G12C inhibitors.
+
+01:08:29 --> 01:08:59
+So here we use both a pdac and a lung cancer model here this is the result with the on Mia pack ourselves where we combined three different doses of the pack 4 inhibitor and these are the three different doses of at aggressor and in the combination we have definitely more inhibition. Similar results were obtained with the other details inhibitor and then we use this data to perform synergy analysis using calculus and software and that gave us combination index values all below.
+
+01:08:59 --> 01:09:04
+One for all the dose combinations, which is indicative of synergy.
+
+01:09:05 --> 01:09:09
+Similar results were obtained with the long and small cell lung cancer cell line.
+
+01:09:11 --> 01:09:13
+We also tested this combination.
+
+01:09:16 --> 01:09:27
+For the ability to inhibit clonogenic potential of pdac cells. So as you can see in this combination there is reduced number of colonies formed by meatpacker cells.
+
+01:09:28 --> 01:09:32
+And the combination was also effective in inhibiting spheroid formation.
+
+01:09:33 --> 01:09:43
+Then we tested this combination in vivo using a pdac CDX model. This is Mia paca cells in grafted into icrs kid mice.
+
+01:09:43 --> 01:09:52
+So as you can see here that the combination was able to reduce tumor sizes, tumor volume, tumor weights and it was also very safe.
+
+01:09:54 --> 01:10:03
+So using tumor tissues, residual tumor tissues from the above experiment, we performed some mechanistic studies where we found that this combination is able to.
+
+01:10:04 --> 01:10:31
+Inhibit the the combination was able to downregulate phosphorylated hurt as well as Dust 6, which is a downstream target of Earth. We also found downregulation of cell cycle markers such as CDK four, CDK 6 and cyclin D1. We also found pack four down regulation in the combination. So this goes to show that the combination is able to inhibit cell growth signaling and also prevent cell cycle progression through the G1S phase.
+
+01:10:38 --> 01:10:41
+Next, we used a lung cancer model.
+
+01:10:45 --> 01:10:46
+Excuse me?
+
+01:10:58 --> 01:10:58
+So.
+
+01:11:16 --> 01:11:20
+I'm sorry, I'm having this bronchial irritation from type.
+
+01:11:24 --> 01:11:26
+You can try to finish.
+
+01:11:30 --> 01:11:32
+So in this lung cancer model.
+
+01:11:33 --> 01:11:38
+We tweak the experiment a little bit so as to develop drug resistance.
+
+01:11:39 --> 01:11:43
+So for two weeks we gave DeSoto reserve the G12C inhibitor.
+
+01:11:45 --> 01:12:00
+After that we stopped dosing Soto recipe and that's where we found the rebound of tumors as expected. But we continued giving the pack four and bitter in the combination arm. So we can see that the pack 4 inhibitor was able to keep the tumors in check.
+
+01:12:02 --> 01:12:03
+And then we performed.
+
+01:12:05 --> 01:12:11
+That we use the same model and performed another experiment where we had survival as the endpoint.
+
+01:12:12 --> 01:12:16
+So, and this is an ongoing experiment by the way, and the combination arm.
+
+01:12:16 --> 01:12:21
+We still have 3 animals out of seven surviving and two of them are absolutely tumor free.
+
+01:12:24 --> 01:12:25
+Excuse me?
+
+01:12:26 --> 01:12:32
+So in conclusion, we have demonstrated that PAC 4 inhibitor can synergize with Keras G12C inhibitors.
+
+01:12:33 --> 01:12:41
+And we have shown that the this combination regimen can enhance survival as well as can prevent the emergence of drug resistance.
+
+01:12:43 --> 01:12:51
+And we believe this this pack 4 inhibitor keeping and do 74 can potentially be used in a combination setting with G12C inhibitors.
+
+01:12:52 --> 01:12:58
+Or as the maintenance therapy to prevent the emergence of drug resistance in patient receiving details inhibitors.
+
+01:12:59 --> 01:13:08
+So with this I conclude and I would like to acknowledge all the people who contributed to this work, especially my mentor, Doctor Sarah Azmi, and all the collaborators and.
+
+01:13:09 --> 01:13:21
+Last but not the least, I would like to thank APA for selecting this abstract and giving me the Young Investigator award. Thank you very much for your patient listening and sorry for the hiccup that I had.
+
+01:13:22 --> 01:13:23
+I will be happy to take any questions that you may have.
+
+01:13:27 --> 01:13:30
+Very exciting day though. Any questions?
+
+01:13:31 --> 01:13:48
+I don't have, I have questions. So I think so you the inhibitor uses KT in 9274 this inhibitor of the pack four. So did you ever try seeing the combination with other mutant inhibitor like G12 do RG12?
+
+01:13:48 --> 01:13:55
+Yeah. That's a very interesting question, very pertinent question also. So the inhibitors of G12D are just emerging.
+
+01:13:56 --> 01:14:05
+They working with Gerald inhibitors, which is MRX 1133. We have a different study going on. We'll be presenting and hopefully in the next AP meeting in ACR.
+
+01:14:06 --> 01:14:15
+Yeah. But we have different combinations going on there that would be very relevant for pdac, especially given that there are about 39% pdac patients carry G12 mutations.
+
+01:14:17 --> 01:14:33
+OK. If there are no questions, so thank you. Thank you. And I would thank all the our presenter for the Nice talk and also the patient of all the audience to hold on till so late. So now I want to just conclude our session. Thank you.
+
+01:14:33 --> 01:14:40
+And it's also a note most of the presenters are Young Investigator award is the future of AP.
+
+01:14:41 --> 01:14:41
+Yeah.
